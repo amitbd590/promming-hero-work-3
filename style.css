@@ -1,0 +1,225 @@
+
+
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+
+}
+
+
+
+/* Slider */
+#slider{
+    margin-top: 100px;
+}
+#slider .container{
+ width: 100%;
+ padding: 50px 0;
+
+ 
+ background: #FCEAE8;
+}
+#slider .container .part-1{
+display: flex;
+ align-items: center;
+
+ padding-left: 48px;
+}
+#slider .container .part-1 h2{
+ font-size: 40px;
+ font-weight: bold;
+}
+#slider .container .part-1 p{
+ font-size: 20px;
+}
+#slider .container .part-2{
+    display: flex;
+     align-items: center;
+    
+}
+#slider .container .part-2 img{
+    padding-left: 50px;
+}
+#slider .container .price{
+    color:#FF438E ;
+    font-size: 40px !important;
+    font-weight: bold;
+}
+#slider .container .btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+/* Item box */
+
+#item-box{
+    margin-top: 50px;
+}
+#item-box .part-1 .wrap,
+#item-box .part-2 .wrap,
+#item-box .part-3 .wrap{
+ border-radius: 10px;
+ padding: 10px 0;
+}
+#item-box .part-1 .wrap{
+ background: #FFA500;
+}
+#item-box .part-2 .wrap{
+ background: #DA70D6;
+}
+#item-box .part-3 .wrap{
+ background: #0000FF;
+}
+#item-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    width: 50%;
+    padding-left: 49px;
+    color: #fff;
+}
+#item-box img{
+width: 30%;
+margin-left: 28px;
+}
+
+/* shoes */
+#shoes{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#shoes .card{
+    margin-top: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+#shoes .card{
+    margin-top: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+#shoes .btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+/* shoes */
+#Backpack{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#Backpack .card{
+    margin-top: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+#Backpack .card{
+    margin-top: 20px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+#Backpack .btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+/* subscribe */
+
+#subscribe{
+    margin-top: 100px;
+  
+}
+#subscribe .wrap{
+    background:#FCEAE8;
+    height: 300px;
+}
+#subscribe .wrap h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#subscribe .wrap p{
+    font-size: 15px;
+    color: rgb(141, 141, 141);
+}
+#subscribe .wrap .btn{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+}
+
+
+
+
+/* Media query */
+
+@media screen and (max-width:991px){
+    #item-box h2 {
+        font-size: 31px;
+        font-weight: bold;
+        width: 50%;
+        padding-left: 22px;
+        color: #fff;
+    }
+    #shoes .card {
+        margin-bottom: 50px;
+    }
+    #Backpack .card {
+        margin-bottom: 50px;
+    }
+    #subscribe {
+        margin-top: 43px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #item-box .wrap {
+        margin: 20px 0;
+    }
+    #item-box h2 {
+        font-size: 35px;
+        font-weight: bold;
+        width: 50%;
+        padding-left: 91px;
+        color: #fff;
+    }
+}
+@media screen and (max-width:575px){
+    #slider {
+        margin-top: 0px;
+    }
+    footer {
+        text-align: center;
+    }
+}
